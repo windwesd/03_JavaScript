@@ -162,6 +162,6 @@ function orCheck(){
 
 function notCheck(){
 
-  const bool3 = (10 > 5) || !(10 % 2 === 0)
-  console.log(`10은 5 이상이거나 짝수인 경우 ${bool3}`);
+  const bool1 = (10 > 5) || !(10 % 2 === 0)
+  console.log(`10은 5 이상이거나 짝수인 경우 ${bool1}`);
 }
