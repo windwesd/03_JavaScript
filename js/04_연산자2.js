@@ -9,7 +9,6 @@
 
 
 
-
 /** 비교 연산자 확인 */
 function check1(){
   const num1 = 100;
