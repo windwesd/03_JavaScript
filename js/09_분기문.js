@@ -110,6 +110,21 @@ function startGame(){
     /* 숫자 입력 후 확인 클릭 시 */
     const value = Number(input); // 입력 받은 값 숫자로 변환
 
+    /* 잘못 입력한 경우 */
+    // NaN (Not a Number : 숫자가 아니다)
+    // isNaN(값) : 값이 NaN이면 true
+
+    if(isNaN(value)){ // 숫자가 아닌 값을 입력한 경우
+      alert("숫자만 입력해 주세요");
+      continue;
+    }
+
+    /* 잘못 입력한 경우 */
+    if(value < 1 || value > 200){ // 범위 초과
+      alert("1 ~ 200 사이 값만 작성해 주세요");
+      continue;
+    }
+
     // 정답을 맞추기 위한 시도를 했기 때문에 count를 증가
     count++
 
