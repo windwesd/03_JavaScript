@@ -8,6 +8,41 @@
 </head>
 <body>
   <h1>UI구현_김형진</h1>
+  <div class="mainbox">
+    <div class="container">
+      <div class="box">너비 : </div> <input type ="text" class="input" id="width">px
+      <div class="box">높이 : </div> <input type="text" class="input" id="height">px
+    </div>
+    <div class="container">
+      <div class="box">글자크기 :</div> <input type="text" class="input" id="fontSize">px
+      <div class="box">굵기 :</div> 
+                              보통<input type="radio" name="fontWeigt" value="normal"> 
+                              굵게<input type="radio" name="fontWeigt" value="bold">
+    </div>
+    <div class="container">
+      <div class="box">글자색 :</div> <input type="text" id="fColor">
+      <div class="box">배경색 :</div> <input type="text" id="bgColor">
+    </div>
+    <div class="container">
+      <div class="box">가로정렬 :</div> 
+                                 왼쪽 <input type="radio" name="x" value="left"> 
+                                가운데 <input type="radio" name="x" value="center"> 
+                                 오른쪽 <input type="radio" name="x" value="right">
+    </div>
+    <div class="container">
+      <div class="box" id="bginput">세로정렬 :</div> 
+                                              위 <input type="radio" name="y"> 
+                                             가운데 <input type="radio" name="y"> 
+                                              아래 <input type="radio" name="y">
+    </div>
+    <div class="container">
+      <div class="box">출력 문자열 :</div> <input type="text" id="outputText">
+    </div>
+    <div class="container">
+      <button type="button" id="Applying">적용하기</button>
+    </div>
+    <div class="area"></div>
+  </div>
 
 
 

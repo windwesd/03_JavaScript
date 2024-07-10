@@ -1,0 +1,42 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 600px;
+  margin: 50px auto;
+  display: flex;
+}
+
+.box{
+  font-weight: bold;
+  display: flex;
+  margin: 0 30px;
+}
+
+.input{
+  width: 70px;
+}
+
+input{
+  margin: auto;
+}
+
+button{
+  margin: auto;
+}
+
+.area{
+  border: 5px solid black;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin: auto;
+}
+
+#outputText{
+  width: 400px;
+  margin-left: -20px;
+}
