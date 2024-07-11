@@ -4,39 +4,30 @@
   padding: 0;
 }
 
+/* 감싸는 요소 */
 .container{
   width: 600px;
-  margin: 50px auto;
+  margin: 50px auto;  /* 좌우 가운데 배치 */
+
   display: flex;
-}
-
-.box{
-  font-weight: bold;
-  display: flex;
-  margin: 0 30px;
-}
-
-.input{
-  width: 70px;
-}
-
-input{
-  margin: auto;
-}
-
-button{
-  margin: auto;
-}
-
-.area{
-  border: 5px solid black;
-  display: flex;
-  justify-content: end;
+  flex-direction: column;
   align-items: center;
-  margin: auto;
 }
 
-#outputText{
-  width: 400px;
-  margin-left: -20px;
+#box{
+  width: 10px;
+  height: 10px;
+  border: 3px solid black;
+  margin-top: 30px;
+  display: flex;
 }
+
+td, th{
+  padding: 10px 0;
+}
+
+#content{
+  width: 100%;
+}
+
+.input-width{ width: 75px;}
